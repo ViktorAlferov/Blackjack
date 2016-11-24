@@ -1,8 +1,6 @@
 #module Cards
 
-"""if __name__ == "__main__":
-    print("This is a module with classes for playing cards.")
-    input("\n\nPress the enter key to exit.")"""
+
 
 class Card(object):
     """ card """
