@@ -1,12 +1,12 @@
-#module Cards
+#module cards
 
-"""if __name__ == "__main__":
+if __name__ == "__main__":
     print("This is a module with classes for playing cards.")
-    input("\n\nPress the enter key to exit.")"""
+    input("\n\nPress the enter key to exit.")
 
 class Card(object):
     """ card """
-    NOMINAL = ["2", "3", "4", "5", "6", "7", "8", "9", "10", "J", "Q", "K", "A"]
+    NOMINAL = ["A", "2", "3", "4", "5", "6", "7", "8", "9", "10", "J", "Q", "K"]
     SUITS = ["c", "d", "h", "s"]
 
     def __init__(self, nominal, suit):
@@ -62,34 +62,4 @@ class Deck(Hand):
                     print("Out of cards!")
 
 
-
-
-
-deck_1 = Deck()
-print("Deck_1:")
-print(deck_1)
-
-deck_1.home()
-print("Deck_1: ")
-print(deck_1)
-
-deck_1.shuffle()
-print("Deck_1:")
-print(deck_1)
-
-hand_1 = Hand()
-hand_2 = Hand()
-hands = [hand_1, hand_2]
-deck_1.deal(hands, per_hand = 7)
-print("hand_1")
-print(hand_1)
-print("hand_2")
-print(hand_2)
-print("Deck_1:")
-print(deck_1)
-
-deck_1.clear_card()
-print("Deck_1:", deck_1)
-
-input("\n\nPress the enter for exit.")
 
