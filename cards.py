@@ -1,5 +1,13 @@
 #module cards
 
+<<<<<<< HEAD
+=======
+if __name__ == "__main__":
+    print("This is a module with classes for playing cards.")
+    input("\n\nPress the enter key to exit.")
+
+
+>>>>>>> a97a23f227766b451c59480ec4478af80617b2f5
 
 class Card(object):
     """ card """
